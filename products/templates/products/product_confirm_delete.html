@@ -1,0 +1,1 @@
+{% extends 'products/base.html' %}{% block content %}<section class="card confirm"><h1>Delete product?</h1><p>Are you sure you want to delete <strong>{{ product.name }}</strong>?</p><form method="post">{% csrf_token %}<a class="btn ghost" href="{{ product.get_absolute_url }}">Cancel</a><button class="btn danger-btn">Yes, Delete</button></form></section>{% endblock %}
