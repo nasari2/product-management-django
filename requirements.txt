@@ -1,4 +1,4 @@
-Django==3.2.25
+Django>=5.2,<5.3
 Pillow>=12.0.0
 gunicorn
 whitenoise
