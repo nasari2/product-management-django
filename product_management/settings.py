@@ -7,7 +7,7 @@ DEBUG = False
 ALLOWED_HOSTS = ["*"]
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://product-management-django-6.onrender.com",
+    "https://product-management-django-7.onrender.com",
 ]
 
 
